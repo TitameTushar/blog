@@ -1,0 +1,23 @@
+
+<h1> Our blog</h1>
+<head><title>Full name making event</title>
+<Script language="Javascript">
+function concatenate()
+{
+document.form1.fullname.value=(document.form1.firstname.value+" "+document.form1.lastname.value);
+}
+</Script>
+</head><body>
+<p><H1>Enter your first name in first box and last name in second box.</H1>
+<p><H3>Your full name will appear in last box</H3>
+<FORM NAME="form1">
+<pre>
+First name:<Input type="Text" name="firstname" onBlur="concatenate()">Press tab-key.<br>
+Last name:<Input type="Text" name="lastname" onBlur="concatenate()">Press tab-key.<br>
+Full name:<Input type="Text" name="fullname">
+<Input type="Reset" value="Clear">    
+</pre>
+</Form>
+</body>
+
+<p>Hello World</p>
