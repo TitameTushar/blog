@@ -1,4 +1,6 @@
 Project::Application.routes.draw do
+  root 'posts#index'
+  
   get "frameset/frame"
   get "say/hello"
   get "say/goodbye"
